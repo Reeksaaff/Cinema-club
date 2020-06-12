@@ -50,3 +50,4 @@ export const HomeFetch = searchedTitle => {
 
     return [{ state, loading, error }, fetchMovies];
 }
+

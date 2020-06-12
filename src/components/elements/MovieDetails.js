@@ -21,7 +21,7 @@ const MovieDetails = ({ movie }) => (
                 <p>{movie.overview}</p>
                 <div className="rating">
                     <div>
-                        <h3>Movie rating:</h3>
+                        <h3>Rating:</h3>
                         <div className="score">{movie.vote_average}</div>
                     </div>
                     <div className="director">

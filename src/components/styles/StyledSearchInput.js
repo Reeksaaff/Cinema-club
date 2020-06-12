@@ -11,7 +11,7 @@ export const SearchInputStyles = styled.div`
 
 export const SearchInputContent = styled.div`
   max-width: 1280px;
-  width: 100%;
+  width: 89%;
   height: 55px;
   background: white;
   margin-left: 20px;

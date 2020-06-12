@@ -13,6 +13,7 @@ export const StyledNavigation = styled.div`
     max-width: 1280px;
     padding: 0 20px;
     width: 100%;
+    height: 80px;
 
     p {
       font-family: 'Roboto Condensed', sans-serif;
@@ -23,7 +24,9 @@ export const StyledNavigation = styled.div`
       text-decoration: none;
 
       @media screen and (max-width: 768px) {
-        font-size: 16px;
+        height: 0px;
+        font-size: 15px;
+        
       }
     }
   }

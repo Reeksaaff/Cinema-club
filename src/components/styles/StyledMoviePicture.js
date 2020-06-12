@@ -9,7 +9,7 @@ export const StyledMoviePicture = styled.div`
     object-fit: cover;
 
     :hover {
-      opacity: 0.8;
+      opacity: 0.7;
     }
 
     /* @media screen and (max-width: 1024px) {

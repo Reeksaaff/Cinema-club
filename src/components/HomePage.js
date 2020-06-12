@@ -24,13 +24,16 @@ const HomePage = () => {
         },
         fetchMovies,
     ] = HomeFetch(searchedTitle);
+
     // Search Input
     const SearchForMovies = search => {
         const endpoint = search ? SearchingBaseUrl + search : DefaultUrl;
 
         setSearchedMovie(search);
         fetchMovies(endpoint);
+        console.log(fetchMovies)
     };
+
     // Loading new titles
     const loadMore = () => {
         const searchingEndpoint = `${SearchingBaseUrl}${searchedTitle}&page=${currentPage + 1}`;

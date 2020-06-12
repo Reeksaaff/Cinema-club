@@ -4,7 +4,7 @@ export const StyledMovieDetailsBar = styled.div`
   display: flex;
   align-items: center;
   width: 100%;
-  min-height: 100px;
+  min-height: 80px;
   height: auto;
   background: black;
   border-bottom: 1px solid #fff;
@@ -22,13 +22,13 @@ export const StyledMovieDetailsBar = styled.div`
 
   .movieDetailsBarColumnContent {
     float: left;
-    width: 33.33%;
+    width: 30%;
     box-sizing: border-box;
-    padding: 8px 20px 0 0;
+    padding: 0 10px 0 0;
   }
 
   .movieDetailsBarInfo {
-    padding: 5px 0 0 35px;
+    padding: 5px 0 0 20px;
     float: left;
   }
 
